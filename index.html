@@ -1,0 +1,29 @@
+
+<html>
+    <head>
+		<title>HTML5 Canvas Example</title>
+
+		<!-- link your javascript files, framework and application -->
+        <script language="Javascript" src="controller.js"></script>
+        <script language="Javascript" src="thing.js"></script>
+    	<script language="Javascript" src="paddledraw.js"></script>
+    	<script language="Javascript" src="paddle.js"></script>
+        <script language="Javascript" src="framework.js"></script>
+    	<script language="Javascript" src="example8.js"></script>
+        
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <meta name="viewport" content="width=660" />
+        
+	</head>
+
+	<!-- we call javascript init function, we setup frame rate to 30 frames/second -->
+	<body onload="init(30)">
+
+		<!-- we are using some style settings what we are defined our style file -->
+		<div id="centerbox">
+			<!-- canvas area, we setup background color with style settings -->
+			<canvas id="mycanvas" style="background:#aaa;" width="5" height="5"></canvas>
+		</div>
+	</body>
+</html>
